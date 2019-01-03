@@ -1,4 +1,4 @@
-/* 2.1 Looping a triangle
+/*                                          2.1 - Looping a triangle
 Write a loop that makes seven calls to console.log to output the following triangle:
 
 #
@@ -14,8 +14,12 @@ Write a loop that makes seven calls to console.log to output the following trian
 for(let hashtag = "#"; hashtag.length < 8; hashtag+="#"){
   console.log(hashtag);
 }
+/*****************************************************************************************************************/
+/*****************************************************************************************************************/
 
-/* 2.2 - FizzBuzz
+
+/*                                          2.2 - FizzBuzz
+
 Write a program that uses console.log to print all the numbers from 1 to 100, with two exceptions. For numbers divisible
 by 3, print "Fizz" instead of the number, and for numbers divisible by 5 (and not 3), print "Buzz" instead.
 When you have that working, modify your program to print "FizzBuzz" for numbers that are divisible by both 3 and 5 (and
@@ -28,8 +32,12 @@ for(let i =  1; i <= 100; i++){
   else console.log(i);
 }
 
+/*****************************************************************************************************************/
+/*****************************************************************************************************************/
 
-/* 2.3 - Chessboard
+
+/*                                          2.3 - Chessboard
+
 Write a program that creates a string that represents an 8×8 grid, using newline characters to separate lines. At each
 position of the grid there is either a space or a "#" character. The characters should form a chessboard.
 Passing this string to console.log should show something like this:
@@ -59,8 +67,12 @@ for(let i = 0; i < size; i++){
   string+="\n";
 }
 
+/*****************************************************************************************************************/
+/*****************************************************************************************************************/
 
-/* 3.1 - Minimum
+
+/*                                          3.1 - Minimum
+
  The previous chapter introduced the standard function Math.min that returns its smallest argument. We can build
 something like that now. Write a function min that takes two arguments and returns their minimum. */
 
@@ -69,8 +81,12 @@ function min(a, b){
   else return b;
 };
 
+/*****************************************************************************************************************/
+/*****************************************************************************************************************/
 
-/* 3.2 - Recursion
+
+/*                                          3.2 - Recursion
+
 We’ve seen that % (the remainder operator) can be used to test whether a number is even or odd by using % 2 to see
 whether it’s divisible by two. Here’s another way to define whether a positive whole number is even or odd:
 Zero is even.
@@ -88,9 +104,12 @@ function isEven(number) {
 }
 console.log(isEven(-7));
 
+/*****************************************************************************************************************/
+/*****************************************************************************************************************/
 
 
-/* 3.3 - Bean counting
+/*                                          3.3 - Bean counting
+
  You can get the Nth character, or letter, from a string by writing "string"[N]. The returned value will be a string
 containing only one character (for example, "b"). The first character has position 0, which causes the last one to be
 found at position string.length - 1. In other words, a two-character string has length 2, and its characters have
@@ -122,9 +141,14 @@ function countChar(string, letter) {
 
 console.log(countChar("BBCDCC", "c"));
 
+/*****************************************************************************************************************/
+/*****************************************************************************************************************/
 
-/*  Taken from Data Structures: Objects and Arrays.
-    Try to figure out the solution myself with as little help as possible.
+
+/*                                          Squirrelification
+
+Taken from Data Structures: Objects and Arrays.
+Try to figure out the solution myself with as little help as possible.
 
 ******* PSEUDO - CODE *****
 
@@ -188,3 +212,6 @@ for(let entry of JOURNAL) { // "adds peanut teeth" event on each event that has 
 }
 
 console.log(phi(correlate("peanut teeth", JOURNAL))); // tests for correlation, result is 1
+
+/*****************************************************************************************************************/
+/*****************************************************************************************************************/
